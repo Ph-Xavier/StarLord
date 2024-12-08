@@ -1,0 +1,46 @@
+body {
+  background-image: url(../img/background.jpg);
+  background-size: 30%;
+  font-family: "Space Grotesk", sans-serif;
+}
+
+.banner {
+  width: 70vw;
+  height: 60vh;
+  border-radius: 10px;
+  border: 1px solid white;
+}
+
+.quadrado {
+  text-align: center;
+  color: black;
+  width: 80%;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 0 10px 15px 10px;
+}
+
+.quadrado--titulo {
+  text-align: center;
+  width: 50%;
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+@media (max-width: 768px) {
+  body {
+    background-size: 70%;
+  }
+
+  .banner {
+    display: none;
+  }
+
+  .quadrado,
+  .quadrado--titulo {
+    width: 90%;
+  }
+}
